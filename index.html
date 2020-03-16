@@ -334,55 +334,30 @@
 						<div class="mailform">
 							<dl>
 								<dt class="mfp">お名前<span class="mustbox">*</span></dt>
-								<dd class="mfp">
-									<input type="text" name="お名前" data-kana="フリガナ" required="required" style="max-width:calc(100% - 35px)"
+								<dd class="mfp mfp-left">
+									<input type="text" name="お名前" data-kana="フリガナ" required="required" style="max-width:calc(100% - 35px)">
 								</dd>
 							</dl>
 
-							<dl>
-								<dt class="mfp">フリガナ<span class="mustbox">*</span></dt>
-								<dd class="mfp">
-									<input type="text" name="フリガナ" data-charcheck="kana" required="required" style="max-width:calc(100% - 35px)">
-								</dd>
-							</dl>
-
-							<dl>
-								<dt class="mfp">年齢<span class="mustbox">*</span></dt>
-								<dd class="mfp">
-									<input type="text" data-type="tel" name="年齢" data-min="2" required="required" class="age" style="max-width:calc(100% - 35px)">
-									<span class="fs">歳</span>
-								</dd>
-							</dl>
-<br>
-							<dl>
-								<dt>郵便番号</dt>
-								<dd>
-									<input type="tel" name="郵便番号" onKeyUp="AjaxZip3.zip2addr(this,'','住所','住所');"/ style="width:120px;" placeholder="例：1636009">
-								</dd>
-							</dl>
-
-							<dl>
-								<dt class="mfp">住所<span class="mustbox">*</span></dt>
-								<dd class="mfp">
-									<input type="text" name="住所" required="required" style="width:calc(100% - 35px)!important;max-width:500px!important;">
-								</dd>
-							</dl>
-
-							<dl>
-								<dt class="mfp">電話番号<span class="mustbox">*</span></dt>
-								<dd class="mfp">
-									<input type="tel" data-type="tel" name="電話番号" data-min="9" required="required">
-								</dd>
-							</dl>
+							<br>
 
 							<dl>
 								<dt class="mfp">メールアドレス<span class="mustbox">*</span></dt>
-								<dd class="mfp">
+								<dd class="mfp mfp-left">
 									<input type="email" data-type="email" name="email" required="required" style="width:calc(100% - 35px)!important;max-width:500px!important;">
 									<br>
 									<input type="email" data-type="email" name="confirm_email" data-post-disable="1" required="required" style="width:calc(100% - 35px)!important;max-width:500px!important;" placeholder="確認用">
 								</dd>
 							</dl>
+
+							<dl>
+								<dt class="mfp">電話番号<span class="mustbox">*</span></dt>
+								<dd class="mfp mfp-left">
+									<input type="tel" data-type="tel" name="電話番号" data-min="9" required="required">
+								</dd>
+							</dl>
+
+							
 
 
 				<!-- / .mailform -->

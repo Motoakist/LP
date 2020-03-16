@@ -175,6 +175,9 @@
   .form{background:#fff;padding:30px 0;position: relative;margin:auto;}
   .mailform{width:750px;margin:auto;position: relative;}
   .mfp{background:#fff!important;}
+  .mfp-left{
+    text-align: left;
+  }
   .mailform dl{display:flex!important;padding:5px 0;}
   .mailform dt{width:180px!important;float:none!important;border:none!important;padding:3px 10px 3px 0!important;font-size:1.7rem!important;font-weight: 700}
   .mailform dd{border:none!important;padding:0!important;font-size:1.7rem!important;width:calc(100% - 180px)!important;}
