@@ -178,6 +178,9 @@
   .mfp-left{
     text-align: left;
   }
+  .mfp-right{
+    text-align: right;
+  }
   .mailform dl{display:flex!important;padding:5px 0;}
   .mailform dt{width:180px!important;float:none!important;border:none!important;padding:3px 10px 3px 0!important;font-size:1.7rem!important;font-weight: 700}
   .mailform dd{border:none!important;padding:0!important;font-size:1.7rem!important;width:calc(100% - 180px)!important;}
