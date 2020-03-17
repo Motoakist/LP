@@ -271,3 +271,15 @@
   .mustbox{color:#fff;}
   }
   
+
+/* こうたパート */
+.inner_img img{
+  width: 100%;
+  position:relative;
+}
+
+.txt-colorbox p{
+  position:absolute;
+  font-size
+  color:white;
+}
